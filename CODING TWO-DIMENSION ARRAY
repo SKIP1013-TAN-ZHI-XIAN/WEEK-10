@@ -7,26 +7,27 @@ class TwoDimensionArray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int [][] sales = new int [3][3];
-	    int sum;
-	    sum = 0;
-	    int avg = sum / sales.length;
-	    Scanner input = new Scanner(System.in);
+	    	int sum;
+	    	sum = 0;
+	    	int avg = sum / sales.length;
+	    	
+		Scanner input = new Scanner(System.in);
 	    
-	    System.out.println("Enter sales");
-	    for (int i = 0; i < sales.length; i++) 
-	    	for (int y = 0; y < sales.length; y++) {
-	    		sales[i][y] = input.nextInt();
-	    		sum = sum + sales[i][y];
-	    }
+	    	System.out.println("Enter sales");
+	    	for (int i = 0; i < sales.length; i++) 
+	    		for (int y = 0; y < sales.length; y++) {
+	    			sales[i][y] = input.nextInt();
+	    			sum = sum + sales[i][y];
+	    	}
 	    
-	    for (int i = 0; i < sales.length; i++) 
-	    	for (int y = 0; y < sales.length; y++) {
-	    		System.out.println("i = " + i);
-	    		System.out.println("y = " + y);
-	    		System.out.println("Value for sales is : " + sales[i][y]);
-	    }
-	    System.out.println("The sum of sales is = " + sum);
-	    System.out.println("The average of sales is = " + avg);
+	   	for (int i = 0; i < sales.length; i++) 
+	    		for (int y = 0; y < sales.length; y++) {
+	    			System.out.println("i = " + i);
+	    			System.out.println("y = " + y);
+	    			System.out.println("Value for sales is : " + sales[i][y]);
+	    	}
+	    	System.out.println("The sum of sales is = " + sum);
+	    	System.out.println("The average of sales is = " + avg);
 	}
 
 }
