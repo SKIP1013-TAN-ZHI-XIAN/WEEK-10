@@ -1,0 +1,28 @@
+Enter five customers
+Alex
+Brian
+David
+Lily
+Jessica
+The customers name in reverse order are : Alex
+The customers name in reverse order are : Brian
+The customers name in reverse order are : David
+The customers name in reverse order are : Lily
+The customers name in reverse order are : Jessica
+
+Enter five integers one number per line
+22
+33
+44
+55
+66
+The sum of the numbers = 220
+The average of the numbers = 44
+
+Items are : index 0 = 22
+Items are : index 1 = 12
+Items are : index 2 = 5
+Items are : index 3 = 55
+Items are : index 4 = 7
+The sum of the numbers = 321
+The average of the numbers = 64
