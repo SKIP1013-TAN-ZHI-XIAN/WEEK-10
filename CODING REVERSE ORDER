@@ -9,7 +9,8 @@ class ReverseOrder {
 		String name0, name1, name2, name3, name4;
 		int item0, item1, item2, item3, item4;
 	    	int sum;
-	    	Scanner input = new Scanner(System.in);
+	    	
+		Scanner input = new Scanner(System.in);
 	    
 	    	System.out.println("Enter five customers");
 	    
