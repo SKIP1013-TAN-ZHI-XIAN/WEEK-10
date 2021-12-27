@@ -1,14 +1,18 @@
 Enter five customers
 Alex
-Brain
+Brian
 David
 Lily
 Jessica
 The customers name in reverse order are : 
-Jessica Lily David Brain Alex
+Jessica Lily David Brian Alex
 
 Enter five integers one number per line
-1 2 3 4 5
+1
+2
+3
+4
+5
 The sum of the numbers = 15
 The numbers in reverse order are : 
 5 4 3 2 1
