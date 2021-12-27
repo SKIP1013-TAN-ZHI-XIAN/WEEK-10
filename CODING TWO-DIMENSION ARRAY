@@ -6,7 +6,7 @@ class TwoDimensionArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int [][] sales = new int [3][3];
+		int[][] sales = new int[3][3];
 	    	int sum;
 	    	sum = 0;
 	    	int avg = sum / sales.length;
