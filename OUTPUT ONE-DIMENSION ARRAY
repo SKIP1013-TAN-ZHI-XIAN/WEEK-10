@@ -10,6 +10,18 @@ Customers name are : person 2 = David
 Customers name are : person 3 = Lily
 Customers name are : person 4 = Jessica
 
+Enter five customers 
+Alex
+Brian
+David
+Lily
+Jessica
+The customers name in reverse order are: Jessica
+The customers name in reverse order are: Lily
+The customers name in reverse order are: David
+The customers name in reverse order are: Brian
+The customers name in reverse order are: Alex
+
 Enter five integers one number per line
 22
 33
