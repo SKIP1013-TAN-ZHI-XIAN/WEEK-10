@@ -9,8 +9,7 @@ class OneDimensionArray {
 	    	String[] name = new String[5];
 	    	int[] item = new int[5];
 	    	int sum;
-	    	sum = 0;
-	    
+	    	
 	   	Scanner input = new Scanner(System.in);
 	    
 	    	System.out.println("Enter five customers");
@@ -36,7 +35,8 @@ class OneDimensionArray {
 		System.out.println();
 	    
 	    	System.out.println("Enter five integers one number per line");
-	    	for (int i = 0; i < item.length; i++) {
+	    	sum = 0;
+		for (int i = 0; i < item.length; i++) {
 	    		item[i] = input.nextInt();
 	    		sum = sum + item[i];
 	    	}
